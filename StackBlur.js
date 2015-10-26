@@ -123,7 +123,7 @@ function stackBlurCanvasRGBA( el, top_x, top_y, width, height, radius, callback 
 	  
 		// NOTE: this part is supposedly only needed if you want to work with local files
 		// so it might be okay to remove the whole try/catch block and just use
-		imageData = context.getImageData( top_x, top_y, width, height );
+		//imageData = context.getImageData( top_x, top_y, width, height );
 		try {
 			netscape.security.PrivilegeManager.enablePrivilege("UniversalBrowserRead");
 			imageData = context.getImageData( top_x, top_y, width, height );
@@ -393,7 +393,7 @@ function stackBlurCanvasRGB( el, top_x, top_y, width, height, radius, callback )
 	  
 		// NOTE: this part is supposedly only needed if you want to work with local files
 		// so it might be okay to remove the whole try/catch block and just use
-		imageData = context.getImageData( top_x, top_y, width, height );
+		//imageData = context.getImageData( top_x, top_y, width, height );
 		try {
 			netscape.security.PrivilegeManager.enablePrivilege("UniversalBrowserRead");
 			imageData = context.getImageData( top_x, top_y, width, height );
