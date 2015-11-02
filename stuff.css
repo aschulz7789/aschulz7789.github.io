@@ -1,9 +1,7 @@
 /*Any css you want to do for the home page do here*/
 #bottombar
 {
-  background-color: 80080;
+  background-color: #800080;
   height: 20px;
   width: 20px;
-  position: fixed;
-  bottom: 0px;
 }
