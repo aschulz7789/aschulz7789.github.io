@@ -39,7 +39,7 @@
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background: transparent url(https://github.com/aschulz7789/aschulz7789.github.io/blob/gh-pages/pattern.jpg) repeat top left;
+	background: transparent url(/pattern.jpg) repeat top left;
 	z-index:10;
 }
 .bx-loading{
