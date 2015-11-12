@@ -11,7 +11,4 @@ body {
   margin-left:auto;
   margin-right:auto;
 }
-#includedcontent /*avoid messing with this*/
-{
-  position:center;
-}
+
