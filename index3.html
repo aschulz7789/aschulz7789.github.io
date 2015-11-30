@@ -231,7 +231,7 @@
 								var $bximg	= $(this),
 									dim			= getImageDim( $bximg.attr('src') ),
 									$currCanvas	= $bxContainer.children('canvas[data-pos=' + $bximg.index() + ']'),
-									styleCSS	= {
+									stylCSS	= {
 										width	: dim.width,
 										height	: dim.height,
 										left	: dim.left,
@@ -241,7 +241,7 @@
 								$bximg.css( style.css );
 								
 								if( supportCanvas )
-									$currCanvas.css( styleCSS );
+									$currCanvas.css( stylCSS );
 									
 								if( i === current )	
 									$bximg.show();
