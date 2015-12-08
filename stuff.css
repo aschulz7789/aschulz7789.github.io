@@ -14,6 +14,20 @@ body {
   margin-left:auto;
   margin-right:auto;
 }
+#slideshow
+{
+  float: left;
+  background-color:white;
+  margin-left:auto;
+  margin-right:auto;
+}
+#welcome
+{
+  float: left;
+  background-color:white;
+  margin-left:auto;
+  margin-right:auto;
+}
 /*html*
 {
 	/*background:url(/TommysMenu.png) no-repeat center center;
