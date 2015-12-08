@@ -19,13 +19,13 @@ body {
   line-height:30px;
     background-color:#eeeeee;
     height:300px;
-    width:50%;
+    width:40%;
     float:left;
     padding:5px; 
 }
 #welcome
 {
-  width:50%;
+  width:40%;
     float:right;
     padding:10px; 
 }
